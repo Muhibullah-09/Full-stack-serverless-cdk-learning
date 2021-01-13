@@ -1,8 +1,8 @@
 {
-  "name": "step-04-appsync-lambda-dynamodb",
+  "name": "backend",
   "version": "0.1.0",
   "bin": {
-    "step-04-appsync-lambda-dynamodb": "bin/step-04-appsync-lambda-dynamodb.js"
+    "backend": "bin/backend.js"
   },
   "scripts": {
     "build": "tsc",

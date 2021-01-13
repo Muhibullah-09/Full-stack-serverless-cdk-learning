@@ -1,0 +1,20 @@
+type Query {
+    welcome: String
+    message: String
+}
+
+input UserData {
+    name: String
+    cnic: Int
+}
+
+type User {
+    id: String
+    name: String
+    cnic: Int
+}
+
+type Mutation {
+    addUser(user: UserData): User
+    deleteUser(userID:String): String
+}
